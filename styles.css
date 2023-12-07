@@ -1,0 +1,30 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header p,
+header li {
+  font-size: 1.25rem;
+}
+
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid black;
+  padding-top: 2rem;
+}
+
+.all {
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
